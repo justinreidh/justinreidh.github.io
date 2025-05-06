@@ -17,14 +17,6 @@ export default function HeroSection() {
 
 			<div className="relative z-10 text-center">
 				<motion.h1
-					initial={{ y: -50 }}
-					animate={{ y: 0 }}
-					transition={{ duration: 0.8, delay: 0.2 }}
-					className="text-3xl md:text-4xl  font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600"
-				>
-					Hi, I'm
-				</motion.h1>
-				<motion.h1
 					initial={{ y: 50 }}
 					animate={{ y: 0 }}
 					transition={{ duration: 0.8, delay: 0.2 }}
